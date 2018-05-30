@@ -1,6 +1,9 @@
 /*////////////// Fonts //////////////*/
 
-/* link the web font used for the level 1 heading here */
+@font-face {
+  font-family: 'Baskerville';
+  src: url('../fonts/Baskerville.ttc');
+}
 
 /*////////// Global Styles //////////*/
 
@@ -18,3 +21,39 @@ body {
 }
 
 /* Write all remaining styles here */
+
+#zetsy {
+  padding-bottom: 10px;
+  font-size: 5em;
+  font-family: 'Baskerville', serif;
+  color: rgb(152,173,166);
+  border-bottom: 1px solid #ccc;
+}
+
+#necklace {
+  border: 5px solid rgb(152,173,166)
+}
+
+#about, #press {
+  color: rgb(111,127,122);
+  font-size: 2em;
+}
+
+p {
+  color: #555;
+  font-size: 1em;
+  margin-bottom: 20px;
+}
+
+a img {
+  border: 5px #ccc solid;
+  padding: 1px;
+}
+
+#press_link {
+  margin-bottom: 20px;
+}
+
+#footer {
+  text-align: right;
+}
